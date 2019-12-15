@@ -1,0 +1,93 @@
+body {
+    line-height: 1.7rem;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+#header {
+    height: 75px;
+    background-color: #455059;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.chart_entry {
+    width: 130px;
+    height: 130px;
+    margin: 14px;
+    float: left;
+    text-align: center;
+    background-color: #4CBDB6;
+    border-radius: 15px;
+}
+
+button {
+    float: left;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #4CBDB6;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.body {
+    width: 750px;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+div.chart_entry:hover {
+    opacity: 0.6;
+}
+
+.about {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+#about {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+#ref {
+    font-size: 13px;
+}
+
+table {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Tree Map</title>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link rel="stylesheet" href="tree_map.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1> Treemap </h1>
+                <a href="../index.html"><button>Back</button></a>
+            </section>
+            <section>
+                <div class="chart-div">
+                    <svg id='tree_map'></svg>
+                </div>
+            </section>
+            <section>
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>Treemaps are another type of hierarchical chart that consist of nested rectangles. 
+                       The branches of the trees are represented by rectangles, with their children shown as 
+                       smaller tiled rectangles. Treemaps are useful for showing hierarchical data, or data with
+                       groupings.
+                    </p>
+                </div>
+                <div class="analysis">
+                    <h2>Analysis</h2>
+                    <p>Treemaps use areas as the marks. The areas are represented as nested rectangles. Each nested
+                       rectangle represents a branch on the tree. Color can be used as a channel to show depth between 
+                       the layers of the treemap. Size of the rectangles is used to show which values are larger.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src='tree_map.js'></script>
+    </body>
+</html>

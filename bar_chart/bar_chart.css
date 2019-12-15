@@ -1,0 +1,90 @@
+body {
+    line-height: 1.7rem;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: inline;
+}
+
+button {
+    float: left;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #4CBDB6;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.chart-div {
+    text-align: center;
+    margin:auto;
+    padding:10px;
+    padding-bottom: 25px;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+.axis-left1 line, 
+.axis-left1 path {
+    stroke: none;
+}
+
+.axis-left1 text {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+}
+
+#bar_chart {
+    width: 700px;
+}
+
+.summary {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.analysis {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1rem;
+}
+
+#wrapper {
+    text-align: center;
+}

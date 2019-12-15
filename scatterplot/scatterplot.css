@@ -1,0 +1,67 @@
+body {
+    line-height: 1.7rem;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    display: inline;
+}
+
+button {
+    float: left;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #4CBDB6;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.summary {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.analysis {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1rem;
+}
+
+#scatterplot {
+    padding-left: 20px;
+}
+
+.chart-div {
+    padding: 25px;
+    padding-left: 120px;
+}

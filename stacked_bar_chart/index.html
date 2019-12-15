@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Stacked Bar Chart</title>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+        <link rel="stylesheet" href="stacked_bar_chart.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1> Stacked Bar Chart </h1>
+                <a href="../index.html"><button>Back</button></a>
+            </section>
+            <section>
+                <div class="chart-div">
+                    <svg id='stacked_bar_chart'></svg>
+                </div>
+            </section>
+            <section>
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>A stacked bar chart is like a bar chart, except the data is stacked on top of each other to show
+                       how the overall dataset is divided into categories. A stacked bar chart is useful when multiple
+                       variables in a dataset need to be compared at the same time. </p>
+                </div>
+                <div class="analysis">
+                    <h2>Analysis</h2>
+                    <p>A stacked bar chart uses lines and areas as marks. An important channel for stacked bar charts is color.
+                       Color is used to represent the data variables and split the bars into different sections.  
+                    </p>
+                </div>
+            </section>    
+        </main>
+        <script src='stacked_bar_chart.js'></script>
+    </body>
+</html>

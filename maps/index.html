@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Maps</title>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link rel="stylesheet" href="maps.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1> Maps (Points) </h1>
+                <a href="../index.html"><button>Back</button></a>
+            </section>
+            <section>
+                <div class="chart-div">
+                    <svg id='maps'></svg>
+                </div>
+            </section>
+            <section>
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>Map visualizations are used to show data based on geography of countries. The chart above
+                       visualizes the United States with points placed at major cities based on population. Hovering over
+                       a point shows the name and population of the city. Map visualizations are useful for any kind of data related
+                       to geography.
+                    </p>
+                </div>
+                <div class="analysis">
+                    <h2>Analysis</h2>
+                    <p>Map visualizations use lines, areas, and points as marks. Points are represeted by the red data points placed
+                       at the major U.S. cities and serve as interaction points for data. Lines and areas are used to create the United States
+                       geography. The main channels used here are shape, positioning, and color. Shape is used to represent the shapes of the states. Positioning 
+                       is used to place the various points at the latitudes and longitudes of the cities in the dataset. Color is used on the data points to make
+                       them stand out.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src='maps.js'></script>
+    </body>
+</html>

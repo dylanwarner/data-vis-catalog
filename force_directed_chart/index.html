@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Force Directed Graph</title>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link rel="stylesheet" href="force_directed_chart.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1> Force Directed Graph </h1>
+                <a href="../index.html"><button>Back</button></a>
+            </section>
+            <section>
+                <div class="chart-div">
+                    <svg id='force_directed_chart'></svg>
+                </div>
+            </section>
+            <section>
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>A force directed graph consists of edges and nodes that are assigned forces based on their
+                       positions. Those forces are then used to simulate force and motion.
+                    </p>
+                </div>
+                <div class="analysis">
+                    <h2>Analysis</h2>
+                    <p>A force directed graph uses lines and points as marks. The lines are used for the edges that connect the nodes to each other and the
+                       nodes are represented by the points(circles). Color can be used as a channel to group nodes into 
+                       categories.</p>
+                </div>
+            </section> 
+        </main>
+        <script src='force_directed_chart.js'></script>
+    </body>
+</html>

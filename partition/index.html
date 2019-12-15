@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Partition</title>
+        <meta charset="utf-8">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link rel="stylesheet" href="partition.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1> Partition </h1>
+                <a href="../index.html"><button>Back</button></a>
+            </section>
+            <section>
+                <div class="chart-div">
+                    <svg id='partition'></svg>
+                </div>
+            </section>
+            <section>
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>Partition diagrams are another type of hierarchy chart similar to a treemap. Partitions are different in that 
+                       they are adjacency diagrams. Nodes are either represented by arcs or rectangles and are drawn next to other nodes based
+                       on relations. Partitions are useful for hierarchical data or data that involves groupings.
+                    </p>
+                </div>
+                <div class="analysis">
+                    <h2>Analysis</h2>
+                    <p>Partition diagrams use areas as marks. These areas are represented by either rectangles or arcs placed adjacent to one another.
+                       Size is used as a channel to represent a flow or hierarchy of information. The root parent at the top is the largest with a continual 
+                       decrease in size as you move down layers of the chart. Color is another channel that can be used to group nodes or show depth.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src='partition.js'></script>
+    </body>
+</html>

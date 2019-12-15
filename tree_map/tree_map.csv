@@ -1,0 +1,17 @@
+id,parentId,size
+tv shows,
+Adult Animation,tv shows
+Comedy,tv shows
+Drama,tv shows
+Bobs Burgers,Adult Animation,40
+Family Guy,Adult Animation,40
+Bojack Horseman,Adult Animation,20
+The Office,Comedy,30
+Friends,Comedy,20
+Game of Thrones,Drama,30
+Parks and Rec,Comedy,10
+Shameless,Drama,20
+Breaking Bad,Drama,20
+Big Mouth,Adult Animation,20
+Futurama,Adult Animation,5
+American Dad,Adult Animation,10
